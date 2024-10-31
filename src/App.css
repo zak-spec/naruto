@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./imagenes/080f0b8de4a7fde193a2c13843c5f880.jpg");
+  /* background-size: cover; */
+  /* background-position: center; */
+  width: 100%;
+  height: 200vh;
+}
+

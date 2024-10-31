@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont {
+z-index: 1000;
+    position: sticky;
+    top: 0; /* Added top to make sticky work */
+    background-color: black;
+    width: 100%;
+}
+.imagen {
+    display: block;
+    max-width: 100%;
+    height: 100px;
+    margin: 0 auto; /* Center the image horizontally */
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 50%;
+}
+
+
+.imagen {
+    transition: transform 0.1s ease-out;
+    transform-origin: center center;
+  }
+
+.card {
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: rgb(189, 189, 189);
+    background-image: url("../../imagenes/e37bd7d91180c5dc06164db9e3f96351.jpg");
+}
+
+.titulo1{
+    color: rgb(255, 255, 255);
+    /* border-radius: 50px; */
+    border: 2px solid rgb(0, 0, 0);
+  margin-left: 100px;
+text-align: center;
+}

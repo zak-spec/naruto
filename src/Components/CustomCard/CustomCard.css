@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  margin-bottom: 10px;
+  width: 100%; /* Ocupa el 100% del ancho disponible */
+
+}
+.card:hover{
+  background-color: rgb(15, 205, 208);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row; /* Imagen a la izquierda, contenido a la derecha */
+  align-items: center;
+  gap: 16px; /* Espacio entre la imagen y el contenido */
+  width: 100%; /* Ocupa el 100% del ancho disponible */
+}
+
+a {
+  text-decoration: none; /* Elimina las decoraciones de los enlaces */
+  color: inherit; /* Hereda el color del elemento padre */
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1; /* Permite que el contenido ocupe el espacio restante */
+}
+
+.card-media {
+  display: block !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  width: 100px !important; /* Ancho fijo para la imagen */
+  height: 140px !important; /* Altura fija para la imagen */
+  object-fit: cover !important; /* Mantiene la proporción de la imagen y la recorta si es necesario */
+}
+
+.favorite-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: red;
+}
